@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+}
+
+header>h1{
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+}
+
+#judul-web>h1{
+    text-align: center;
+    font-family:Geist Mono;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+/* Display Style */
+.container-item{
+    width: 100%;
+    padding: 24px;
+}
+
+.container-item>h2{
+    text-align: center;
+}
+
+.container-result{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    border-radius: 15px;
+}
+
+.container-form{
+    text-align: left;
+    background-color: aliceblue;
+    padding: 24px;
+    border-radius: 15px;
+}
+
+.container-form>div {
+    padding: 8px;
+}
+
+.form-item {
+    height: 24px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+button {
+    border: 0px;
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+
+.result-button {
+    text-align: center;
+    background-color: lightskyblue;
+    color: white;
+}
+#result-button {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.result-integration {
+    text-align: center;
+    margin-block: 15px;
+}
+
+#calculate-button {
+    background-color:lightskyblue;
+    color: white;
+    margin-top: 5px;
+}
+
+.tambahan{
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+
+#isi-tambahan {
+    font-size: 16px;
+    margin-block: 0px;
+}
+
+.result-extension {
+    margin-block: 0px;
+}
+
+.consultant-button {
+    margin-block: 8px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.penyakit {
+    background-color: aliceblue;
+}
+
+.penyakit-item {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#penyakit-item {
+    margin-block: 0px;
+    text-align: center;
+}
+
+
+.logo {
+    width: 100px; /
+    height: auto; 
+    margin-right: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000; 
+    color: white; 
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #000000, #ffffff); 
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    background: #6699cc;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16) , 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 0px;
+}
+
+.navbar>ul{
+    text-align: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar>ul li{
+    font: bold 12px/18px sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 25px 20px;
+    background: #6699ccc;
+}
+
+.navbar>ul li a{
+    text-decoration:none;
+    padding: 25px 20px;
+    color: white;
+}
+
+.navbar>ul li:hover{
+    background: #4dd0e1;
+    color: white;
+}
+
+.navbar>ul li ul{
+    padding: 0;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    display: none;
+    visibility: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16) , 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.navbar>ul li ul li{
+    background-color: #00acc1;
+    display: block;
+}
+
+.navbar>ul li ul li:hover{
+   background:#4dd0e1 ; 
+}
+
+.navbar>ul li:hover ul{
+    display: block;
+    opacity:1 ;
+    visibility: visible;
+}
+
+.navbar>ul ul ul li{
+    display: none;
+}
+
+.navbar>ul ul li:hover li{
+    display: block;
+}
+
+.navbar>ul ul ul{
+    left: 100%;
+    top: 0;
+}
+
+.navbar>ul li{
+    margin: 0;
+}
